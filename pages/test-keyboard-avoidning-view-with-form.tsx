@@ -2,7 +2,7 @@ import React from 'react'
 
 export default () => {
     return (
-        <div style={{
+        <form style={{
             height: '100vh',
             width: '100vw',
             display: 'flex',
@@ -11,6 +11,6 @@ export default () => {
         }}>
             <input />
             <button>Next</button>
-        </div>
+        </form>
     )
 } 
